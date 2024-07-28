@@ -42,3 +42,50 @@ CONFIG_SINGBOX_WITH_QUIC=y
 CONFIG_SINGBOX_WITH_REALITY_SERVER=y
 CONFIG_SINGBOX_WITH_UTLS=y
 CONFIG_SINGBOX_WITH_WIREGUARD=y
+
+CONFIG_PACKAGE_TAR_BZIP2=y
+CONFIG_PACKAGE_TAR_GZIP=y
+CONFIG_PACKAGE_TAR_XZ=y
+CONFIG_PACKAGE_TAR_ZSTD=y
+CONFIG_PACKAGE_bzip2=y
+# CONFIG_PACKAGE_chinadns-ng is not set
+# CONFIG_PACKAGE_coreutils-base64 is not set
+CONFIG_PACKAGE_coreutils-stat=y
+CONFIG_PACKAGE_coreutils-stty=y
+# CONFIG_PACKAGE_dns2socks is not set
+# CONFIG_PACKAGE_dns2tcp is not set
+CONFIG_PACKAGE_libbz2=y
+# CONFIG_PACKAGE_libev is not set
+CONFIG_PACKAGE_liblzma=y
+CONFIG_PACKAGE_libmount=y
+# CONFIG_PACKAGE_libpcre2 is not set
+# CONFIG_PACKAGE_libsodium is not set
+# CONFIG_PACKAGE_libudns is not set
+CONFIG_PACKAGE_libzstd=y
+# CONFIG_PACKAGE_lua-neturl is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Simple_Obfs is not set
+CONFIG_PACKAGE_luci-app-store=y
+CONFIG_PACKAGE_luci-lib-taskd=y
+CONFIG_PACKAGE_luci-lib-xterm=y
+CONFIG_PACKAGE_luci-theme-argon=y
+# CONFIG_PACKAGE_microsocks is not set
+# CONFIG_PACKAGE_mosdns is not set
+CONFIG_PACKAGE_mount-utils=y
+# CONFIG_PACKAGE_resolveip is not set
+CONFIG_PACKAGE_script-utils=y
+# CONFIG_PACKAGE_shadowsocks-rust-sslocal is not set
+# CONFIG_PACKAGE_shadowsocks-rust-ssserver is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-check is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-local is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir is not set
+# CONFIG_PACKAGE_simple-obfs is not set
+CONFIG_PACKAGE_tar=y
+CONFIG_PACKAGE_taskd=y
+# CONFIG_PACKAGE_tcping is not set
+# CONFIG_PACKAGE_xray-core is not set
+CONFIG_PACKAGE_xz=y
+CONFIG_PACKAGE_xz-utils=y
+CONFIG_ZSTD_OPTIMIZE_O3=y
+
